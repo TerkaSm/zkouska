@@ -15,7 +15,8 @@
 }
 
 .img--center:hover {
-    animation: zvetseni 3s infinite;
+    /*animation: zvetseni 3s infinite;*/
+    animation: nadech 4s infinite;
 }
 
 @keyframes zvetseni {
@@ -27,5 +28,17 @@
     }
     66% {
       transform: scale(1.3);
+    }
+  }
+
+  @keyframes nadech {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
     }
   }
