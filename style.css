@@ -97,7 +97,7 @@ body {
   left: -10vmin;
   transform: rotate(-180deg);
   /*animation: pohyb-dolu 4s infinite;*/
-  animation: pohyb-do-L 10s infinite;
+  animation: pohyb-do-L 12s infinite;
   animation-fill-mode: both;
 }
 
@@ -106,7 +106,7 @@ body {
   bottom: -21vmin;
   transform: rotate(15deg);
   animation: pohyb-zdola 10s infinite;
-  animation-delay: 5s;
+  animation-delay: 14s;
   animation-fill-mode: both;
 }
 
@@ -116,7 +116,7 @@ body {
   height: 105vh;
   transform: rotate(-15deg);
   animation: pohyb-zprava 6s infinite;
-  animation-delay: 2s;
+  animation-delay: 7s;
   animation-fill-mode: both;
 }
 
