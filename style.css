@@ -19,7 +19,7 @@ body {
 }
 
 .section--color-1 {
-  background-color: #8C8C8C;
+  background-color: #60B7C2;
 }
 
 .section--color-2 {
@@ -38,7 +38,8 @@ body {
 }
 
 .button--primary {
-  background-color: #8BC343;
+  /*background-color: #8BC343;*/
+  background-color: #675555;
 }
 
 .button--primary:hover {
@@ -48,7 +49,7 @@ body {
 
 .button--secondary {
   background-color: #fff;
-  color: #8C8C8C;
+  color: #675555;
 }
 
 .button--secondary:hover {
@@ -273,15 +274,18 @@ body {
 @keyframes zmena-secondary {
   0% {
     background-color: #fff;
+    color: #8C8C8C;
     transform: scale(1.0);
   }
   80% {
-    background-color: aquamarine;
+    background-color: #508e24;
+    color: white;
     transform: scale(1.05);
   }
 
   100% {
-    background-color: aquamarine;
+    background-color: #508e24;
+    color: white;
     transform: scale(1.05);
   }
 }
