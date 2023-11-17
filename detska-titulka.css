@@ -16,6 +16,10 @@
   position: absolute;
 }
 
+.img-uvod:hover {
+  transform: scale(1.2);
+}
+
 /* kočka */
 
 .img-uvod--1 {
@@ -36,6 +40,6 @@
 
 .img-uvod--3 {
   height: 45vh;
-  bottom: -3vmin;
+  bottom: 3vmin;
   right: 51vmin;
 }
