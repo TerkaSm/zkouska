@@ -31,8 +31,8 @@ body {
 .button {
   display: inline-block;
   /*padding: 1.6rem 3.2rem;*/
-  padding: clamp(0.9rem, 3vw, 1.6rem) clamp(1.6rem, 5vw, 3.2rem);
-  font-size: clamp(1.5rem, 5vw, 2.5rem);;
+  padding: clamp(0.3rem, 2vw, 1.5rem) clamp(1rem, 4vw, 3.2rem);
+  font-size: clamp(1.2rem, 2vw, 2.5rem);
   border-radius: 30px;
   text-decoration: none;
   font-family: 'Life Savers', serif;
@@ -54,6 +54,7 @@ body {
   color: #675555;
 }
 
+
 .button--secondary:hover {
   animation: zmena-secondary 1.2s;
   animation-fill-mode: both;
@@ -69,17 +70,18 @@ body {
 
 .home__content {
   padding-bottom: 3rem;
+  padding-bottom: clamp(1rem, 3vw, 3rem);
 }
 
 .home__title {
   margin-top: 1rem;
   font-family: 'Life Savers', serif;
-  font-size: clamp(3rem, 7vw, 5rem);
+  font-size: clamp(2.8rem, 7vw, 5rem);
   font-weight: 700;
 }
 
 .home__text {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.1rem, 3vw, 2rem);
 }
 
 .home__flex {
