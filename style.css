@@ -26,6 +26,8 @@ body {
   background-color: aquamarine;
 }
 
+/* BUTTONS */
+
 .button {
   display: inline-block;
   /*padding: 1.6rem 3.2rem;*/
@@ -144,11 +146,19 @@ body {
     animation: nadech 4s infinite;
 }
 
-.zpet {
+.u-position-bottom-right {
   position: absolute;
   bottom: 20px;
   right: 20px;
 }
+
+.u-position-top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* ANIMACE */
 
 @keyframes nadech {
   0% {
