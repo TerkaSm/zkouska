@@ -1,15 +1,26 @@
 .section-background-tiger {
-    width: 100vw;
-    height: 100vh;
-    background-image: linear-gradient(rgba(247, 247, 247, 0.3), rgba(255, 255, 255, 0.3)),url(img/pozadi_tygr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-position: bottom right -500px;*/
-  }
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(247, 247, 247, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(img/pozadi_tygr.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
 
-.img-tiger {
-    height: 80vh;
-    position: absolute;
-    right: -6vmin;
-    bottom: -18vmin;
-  }
+.img-tiger-angry {
+  height: 80vh;
+  position: absolute;
+  right: -6vmin;
+  bottom: -18vmin;
+}
+
+.img-tiger-breath {
+  height: 47vh;
+  position: absolute;
+  right: 20vmin;
+  bottom: 1vmin;
+}
