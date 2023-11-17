@@ -2,10 +2,10 @@
     background-image: linear-gradient(rgba(247, 247, 247, 0.3), rgba(255, 255, 255, 0.3)),url(img/pozadi_tygr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom right -500px;
+    /*background-position: bottom right -500px;*/
   }
 
-.img--tiger {
+.img-tiger {
     height: 80vh;
     position: absolute;
     right: -6vmin;
