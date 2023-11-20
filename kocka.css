@@ -14,23 +14,23 @@
   left: 59vmin;
 }
 
-.img-cat-angry {
-  height: 80vh;
+.img-cat-fear {
+  height: 55vh;
   position: absolute;
-  right: -6vmin;
-  bottom: -18vmin;
+  bottom: 19vmin;
+  left: 59vmin;
 }
 
 .img-cat-breath {
-  height: 47vh;
+  height: 55vh;
   position: absolute;
-  right: 20vmin;
-  bottom: 1vmin;
+  bottom: 19vmin;
+  left: 59vmin;
 }
 
 .img-cat-think {
-  height: 47vh;
+  height: 55vh;
   position: absolute;
-  right: 20vmin;
-  bottom: 1vmin;
+  bottom: 19vmin;
+  left: 59vmin;
 }

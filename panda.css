@@ -1,0 +1,47 @@
+.section-background-panda {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(247, 247, 247, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url(img/pozadi_detska-titulka.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.img-panda-intro {
+  height: 45vh;
+  position: absolute;
+  bottom: 10vmin;
+  right: 51vmin;
+}
+
+.img-panda-sed {
+  height: 50vh;
+  position: absolute;
+  bottom: 10vmin;
+  right: 51vmin;
+}
+
+.img-panda-breath {
+  height: 45vh;
+  position: absolute;
+  bottom: 10vmin;
+  right: 51vmin;
+}
+
+.img-panda-think {
+  height: 45vh;
+  position: absolute;
+  bottom: 10vmin;
+  right: 51vmin;
+}
+
+.img-lenochod {
+  height: 35vh;
+  position: absolute;
+  bottom: 17vmin;
+  right: 16vmin;
+}
