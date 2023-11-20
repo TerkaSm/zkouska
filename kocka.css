@@ -1,38 +1,34 @@
-.section-background-tiger {
+.section-background-cat {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(
-      rgba(247, 247, 247, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url(img/pozadi_tygr.svg);
+  background-image: url(img/pozadi_kocka_var2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom right;
+  background-position: bottom left;
 }
 
-.img-tiger-intro {
-  height: 60vh;
+.img-cat-intro {
+  height: 55vh;
   position: absolute;
-  right: 13vmin;
-  bottom: -5vmin;
+  bottom: 19vmin;
+  left: 59vmin;
 }
 
-.img-tiger-angry {
+.img-cat-angry {
   height: 80vh;
   position: absolute;
   right: -6vmin;
   bottom: -18vmin;
 }
 
-.img-tiger-breath {
+.img-cat-breath {
   height: 47vh;
   position: absolute;
   right: 20vmin;
   bottom: 1vmin;
 }
 
-.img-tiger-think {
+.img-cat-think {
   height: 47vh;
   position: absolute;
   right: 20vmin;
