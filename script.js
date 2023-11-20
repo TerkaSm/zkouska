@@ -10,4 +10,6 @@ function openFullscreen() {
  }
 }
 
+openFullscreen()
+
 screen.orientation.lock('landscape')
