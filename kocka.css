@@ -24,11 +24,18 @@
 .img-cat-breath {
   height: 55vh;
   position: absolute;
-  bottom: 19vmin;
+  bottom: 5vmin;
   left: 59vmin;
 }
 
 .img-cat-think {
+  height: 55vh;
+  position: absolute;
+  bottom: 19vmin;
+  left: 59vmin;
+}
+
+.img-cat-end {
   height: 55vh;
   position: absolute;
   bottom: 19vmin;
