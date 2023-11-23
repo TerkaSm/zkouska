@@ -14,7 +14,7 @@
 .img-tiger-intro {
   height: 60vh;
   position: absolute;
-  right: 13vmin;
+  right: 9vmin;
   bottom: -5vmin;
 }
 
@@ -37,4 +37,25 @@
   position: absolute;
   right: 10vmin;
   bottom: 1vmin;
+}
+
+.bubble {
+  position: absolute;
+  height: 24vh;
+}
+
+.bubble--left {
+  bottom: 30vmin;
+  right: 68vmin;
+}
+
+.bubble--rotate {
+  bottom: 53vmin;
+  right: 48vmin;
+  transform: rotate(10deg);
+}
+
+.bubble--right {
+  bottom: 45vmin;
+  right: 9vmin;
 }
