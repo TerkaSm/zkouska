@@ -2,8 +2,8 @@
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(
-      rgba(247, 247, 247, 0.4),
-      rgba(255, 255, 255, 0.4)
+      rgba(247, 247, 247, 0.3),
+      rgba(255, 255, 255, 0.3)
     ),
     url(img/pozadi_detska-titulka.jpg);
   background-repeat: no-repeat;
@@ -23,17 +23,17 @@
 /* kočka */
 
 .img-uvod--1 {
-  height: 40vh;
-  bottom: 14vmin;
-  right: 13vmin;
+  height: 46vh;
+  bottom: 0vmin;
+  right: 78vmin;
 }
 
 /* panda */
 
 .img-uvod--2 {
   height: 40vh;
-  bottom: 10vmin;
-  left: 5vmin;
+  bottom: 5vmin;
+  right: 5vmin;
 }
 
 /* tygr */
@@ -41,5 +41,5 @@
 .img-uvod--3 {
   height: 45vh;
   bottom: 3vmin;
-  right: 51vmin;
+  right: 39vmin;
 }
