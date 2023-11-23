@@ -43,3 +43,47 @@
   bottom: 3vmin;
   right: 39vmin;
 }
+
+/* bubliny */
+
+.bubble {
+  position: absolute;
+  height: 20vh;
+}
+
+.bubble--left {
+  bottom: 41vmin;
+  right: 109vmin;
+}
+
+.bubble--rotate {
+  bottom: 45vmin;
+  right: 43vmin;
+  transform: rotate(-10deg);
+}
+
+.bubble--right {
+  bottom: 43vmin;
+  right: 3vmin;
+}
+
+.bed {
+  position: absolute;
+  height: 15vh;
+  bottom: 44vmin;
+  right: 112vmin;
+}
+
+.cubes {
+  position: absolute;
+  height: 10vh;
+  bottom: 51vmin;
+  right: 46vmin;
+}
+
+.swing {
+  position: absolute;
+  height: 11vh;
+  bottom: 49vmin;
+  right: 7vmin;
+}
