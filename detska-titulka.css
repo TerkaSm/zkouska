@@ -2,8 +2,8 @@
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(
-      rgba(247, 247, 247, 0.3),
-      rgba(255, 255, 255, 0.3)
+      rgba(247, 247, 247, 0.2),
+      rgba(255, 255, 255, 0.2)
     ),
     url(img/pozadi_detska-titulka.jpg);
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 .img-uvod--1 {
   height: 46vh;
   bottom: 2vmin;
-  right: 81vmin;
+  right: 98vmin;
 }
 
 /* panda */
@@ -33,7 +33,7 @@
 .img-uvod--2 {
   height: 50vh;
   bottom: 2vmin;
-  right: -4vmin;
+  right: 0vmin;
 }
 
 /* tygr */
@@ -41,7 +41,7 @@
 .img-uvod--3 {
   height: 55vh;
   bottom: 0vmin;
-  right: 34vmin;
+  right: 45vmin;
 }
 
 /* bubliny */
@@ -52,8 +52,8 @@
 }
 
 .bubble--left {
-  bottom: 44vmin;
-  right: 114vmin;
+  bottom: 46vmin;
+  right: 135vmin;
 }
 
 .bubble--rotate {
@@ -71,8 +71,8 @@
 .bed {
   position: absolute;
   height: 20vh;
-  bottom: 48vmin;
-  right: 117vmin;
+  bottom: 49vmin;
+  right: 138vmin;
 }
 
 .cubes {
