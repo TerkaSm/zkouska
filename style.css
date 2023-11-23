@@ -60,6 +60,40 @@ body {
   animation-fill-mode: both;
 }
 
+.off-on {
+  position: absolute;
+}
+
+.off-on--1 {
+  position: absolute;
+  top: 5vmin;
+  left: 5vmin; 
+}
+
+.off-on--2 {
+  position: absolute;
+  top: 5vmin;
+  right: 5vmin; 
+}
+
+.off-on__base {
+  height: 10vmin;
+}
+
+.off-on__arrow {
+  position: absolute;
+  height: 9vmin;
+  top: .5vmin;
+  left: 15.5vmin;   /* -left .5 */
+}
+
+.off-on__settings {
+  position: absolute;
+  height: 9vmin;
+  top: .5vmin;
+  right: 15.5vmin;   /* -right .5 */
+}
+
 
 .home {
   max-width: 1200px;
