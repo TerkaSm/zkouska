@@ -59,3 +59,24 @@
   bottom: 45vmin;
   right: 9vmin;
 }
+
+.cubes {
+  position: absolute;
+  height: 12vh;
+  bottom: 37vmin;
+  right: 70vmin;
+}
+
+.cubes--2 {
+  position: absolute;
+  height: 12vh;
+  bottom: 60vmin;
+  right: 50vmin;
+}
+
+.mum {
+  position: absolute;
+  height: 17vh;
+  bottom: 50vmin;
+  right: 13vmin;
+}
