@@ -17,73 +17,74 @@
 }
 
 .img-uvod:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /* kočka */
 
 .img-uvod--1 {
   height: 46vh;
-  bottom: 0vmin;
-  right: 78vmin;
+  bottom: 2vmin;
+  right: 81vmin;
 }
 
 /* panda */
 
 .img-uvod--2 {
-  height: 40vh;
-  bottom: 5vmin;
-  right: 5vmin;
+  height: 50vh;
+  bottom: 2vmin;
+  right: -4vmin;
 }
 
 /* tygr */
 
 .img-uvod--3 {
-  height: 45vh;
-  bottom: 3vmin;
-  right: 39vmin;
+  height: 55vh;
+  bottom: 0vmin;
+  right: 34vmin;
 }
 
 /* bubliny */
 
 .bubble {
   position: absolute;
-  height: 20vh;
+  height: 25vh;
 }
 
 .bubble--left {
-  bottom: 41vmin;
-  right: 109vmin;
+  bottom: 44vmin;
+  right: 114vmin;
 }
 
 .bubble--rotate {
-  bottom: 45vmin;
+  bottom: 52vmin;
   right: 43vmin;
   transform: rotate(-10deg);
 }
 
 .bubble--right {
-  bottom: 43vmin;
+  bottom: 51vmin;
   right: 3vmin;
+  transform: rotate(-10deg);
 }
 
 .bed {
   position: absolute;
-  height: 15vh;
-  bottom: 44vmin;
-  right: 112vmin;
+  height: 20vh;
+  bottom: 48vmin;
+  right: 117vmin;
 }
 
 .cubes {
   position: absolute;
-  height: 10vh;
-  bottom: 51vmin;
+  height: 13vh;
+  bottom: 60vmin;
   right: 46vmin;
 }
 
 .swing {
   position: absolute;
-  height: 11vh;
-  bottom: 49vmin;
+  height: 16vh;
+  bottom: 57vmin;
   right: 7vmin;
 }
