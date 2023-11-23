@@ -16,6 +16,9 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  max-width: 200vh;
+  position: relative;
+  margin: 0 auto;
 }
 
 .section--color-1 {
