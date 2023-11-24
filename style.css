@@ -26,9 +26,16 @@ body {
 }
 
 .audio-box {
-  position: absolute;
-  top: 1vmin;
-  right: 30vmin;
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .audio-box {
+    display: block;
+    position: absolute;
+    top: 1vmin;
+    right: 30vmin;
+  }
 }
 
 
