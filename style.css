@@ -60,6 +60,16 @@ body {
   animation-fill-mode: both;
 }
 
+.button--small {
+  padding: clamp(0.3rem, 2vw, .9rem) clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  background-color: #675555b4;
+}
+
+.button--small:hover {
+  transform: scale(1.1);
+}
+
 .off-on {
   position: absolute;
 }
@@ -178,8 +188,8 @@ body {
 
 .u-position-top-right {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 17vmin;
+  right: 5vmin;
 }
 
 /* ANIMACE */
