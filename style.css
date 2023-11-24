@@ -94,14 +94,14 @@ body {
   position: absolute;
   height: 9vmin;
   top: .5vmin;
-  left: 15.5vmin;   /* -left .5 */
+  left: 15vmin;   /* -left 1 */
 }
 
 .off-on__settings {
   position: absolute;
   height: 9vmin;
   top: .5vmin;
-  right: 15.5vmin;   /* -right .5 */
+  right: 15vmin;   /* -right 1 */
 }
 
 
