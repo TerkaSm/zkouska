@@ -2,10 +2,10 @@
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(
-      rgba(247, 247, 247, 0.2),
-      rgba(255, 255, 255, 0.2)
+      rgba(247, 247, 247, 0.1),
+      rgba(255, 255, 255, 0.1)
     ),
-    url(img/pozadi_tygr.svg);
+    url(img/pozadi_tygr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
