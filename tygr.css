@@ -39,42 +39,44 @@
   bottom: 1vmin;
 }
 
-.bubble {
+/* tygr bubliny */
+
+.tiger-bubble {
   position: absolute;
   height: 24vh;
 }
 
-.bubble--left {
+.tiger-bubble--left {
   bottom: 30vmin;
   right: 68vmin;
 }
 
-.bubble--rotate {
+.tiger-bubble--rotate {
   bottom: 53vmin;
   right: 48vmin;
   transform: rotate(10deg);
 }
 
-.bubble--right {
+.tiger-bubble--right {
   bottom: 45vmin;
   right: 9vmin;
 }
 
-.cubes {
+.tiger-cubes {
   position: absolute;
   height: 12vh;
   bottom: 37vmin;
   right: 70vmin;
 }
 
-.cubes--2 {
+.tiger-cubes--2 {
   position: absolute;
   height: 12vh;
   bottom: 60vmin;
   right: 50vmin;
 }
 
-.mum {
+.tiger-mum {
   position: absolute;
   height: 17vh;
   bottom: 50vmin;
