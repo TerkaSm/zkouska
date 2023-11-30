@@ -2,7 +2,8 @@
   max-width: 1040px;
   margin: 0 auto;
   padding: 1.5rem;
-  overflow: visible;
+  height: 100%;
+  overflow: auto;
 }
 
 .info__title {

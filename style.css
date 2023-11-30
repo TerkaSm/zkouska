@@ -21,6 +21,7 @@ body {
   overflow: hidden;
   color: var(--secondary-color);
   background-color: var(--background-color);
+  height: 100vh;
 }
 
 .section {
