@@ -1,9 +1,13 @@
 .info {
-  max-width: 1040px;
-  margin: 0 auto;
+  max-width: 100%;
   padding: 1.5rem;
   height: 100%;
   overflow: auto;
+}
+
+.info__content {
+  max-width: 1040px;
+  margin: 0 auto;
 }
 
 .info__title {
