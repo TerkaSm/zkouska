@@ -16,9 +16,6 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  /* max-width: 200vh;
-  position: relative;
-  margin: 0 auto; */
 }
 
 .section--color-1 {
@@ -43,7 +40,6 @@ body {
 
 .button {
   display: inline-block;
-  /*padding: 1.6rem 3.2rem;*/
   padding: clamp(0.3rem, 2vw, 1.5rem) clamp(1rem, 4vw, 3.2rem);
   font-size: clamp(1.2rem, 2vw, 2.5rem);
   border-radius: 30px;
@@ -53,7 +49,6 @@ body {
 }
 
 .button--primary {
-  /*background-color: #8BC343;*/
   background-color: #675555;
 }
 
@@ -83,40 +78,41 @@ body {
   transform: scale(1.1);
 }
 
-.off-on {
+.swipe-button {
   position: absolute;
 }
 
-.off-on--1 {
+.swipe-button--1 {
   position: absolute;
   top: 5vmin;
   left: 5vmin; 
 }
 
-.off-on--2 {
+.swipe-button--2 {
   position: absolute;
   top: 5vmin;
   right: 5vmin; 
 }
 
-.off-on__base {
+.swipe-button__base {
   height: 10vmin;
 }
 
-.off-on__arrow {
+.swipe-button__home {
   position: absolute;
   height: 9vmin;
   top: .5vmin;
-  left: 15vmin;   /* -left 1 */
+  left: 15vmin;   /* bude se posouvat: left 1vmin */
 }
 
-.off-on__settings {
+.swipe-button__info {
   position: absolute;
   height: 9vmin;
   top: .5vmin;
-  right: 15vmin;   /* -right 1 */
+  right: 15vmin;   /* bude se posouvat: right 1vmin */
 }
 
+/* HOME-PAGE */
 
 .home {
   max-width: 1200px;
@@ -150,12 +146,12 @@ body {
   padding: 0 3rem;
 }
 
-.img {
+.home__img {
   position: absolute;
   height: 83vh;
 }
 
-.img--1 {
+.home__img--1 {
   top: -52vmin;
   left: -10vmin;
   transform: rotate(-180deg);
@@ -163,7 +159,7 @@ body {
   animation-fill-mode: both;
 }
 
-.img--2 {
+.home__img--2 {
   left: -32vmin;
   bottom: -21vmin;
   transform: rotate(15deg);
@@ -172,7 +168,7 @@ body {
   animation-fill-mode: both;
 }
 
-.img--3 {
+.home__img--3 {
   right: -63vmin;
   bottom: -6vmin;
   height: 105vh;

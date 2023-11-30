@@ -1,4 +1,4 @@
-.section-background-chidren-homepage {
+.section-background-baby-home {
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(
@@ -11,18 +11,18 @@
   background-position: bottom right;
 }
 
-.img-uvod {
+.baby-home__img {
   height: 50vh;
   position: absolute;
 }
 
-.img-uvod:hover {
+.baby-home__img:hover {
   transform: scale(1.1);
 }
 
 /* kočka */
 
-.img-uvod--1 {
+.baby-home__img--1 {
   height: 46vh;
   bottom: 2vmin;
   right: 98vmin;
@@ -30,7 +30,7 @@
 
 /* panda */
 
-.img-uvod--2 {
+.baby-home__img--2 {
   height: 50vh;
   bottom: 2vmin;
   right: 0vmin;
@@ -38,7 +38,7 @@
 
 /* tygr */
 
-.img-uvod--3 {
+.baby-home__img--3 {
   height: 55vh;
   bottom: 0vmin;
   right: 45vmin;
@@ -46,43 +46,43 @@
 
 /* bubliny */
 
-.bubble {
+.baby-home__bubble {
   position: absolute;
   height: 25vh;
 }
 
-.bubble--left {
+.baby-home__bubble--left {
   bottom: 46vmin;
   right: 135vmin;
 }
 
-.bubble--rotate {
+.baby-home__bubble--rotate {
   bottom: 52vmin;
   right: 43vmin;
   transform: rotate(-10deg);
 }
 
-.bubble--right {
+.baby-home__bubble--right {
   bottom: 51vmin;
   right: 3vmin;
   transform: rotate(-10deg);
 }
 
-.bed {
+.baby-home__bed {
   position: absolute;
   height: 20vh;
   bottom: 49vmin;
   right: 138vmin;
 }
 
-.cubes {
+.baby-home__cubes {
   position: absolute;
   height: 13vh;
   bottom: 60vmin;
   right: 46vmin;
 }
 
-.swing {
+.baby-home__swing {
   position: absolute;
   height: 16vh;
   bottom: 57vmin;
