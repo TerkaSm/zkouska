@@ -22,12 +22,6 @@
   font-weight: 700;
 }
 
-.info__point {
-  border: 3px solid white;
-  border-radius: 50%;
-  padding: 5px 10px;
-}
-
 .info__text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   line-height: 2;
